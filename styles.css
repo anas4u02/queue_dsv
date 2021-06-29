@@ -1,3 +1,10 @@
+*{
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+
+
 #logo img{
     margin: 3px 12px;
     height: 43px;
@@ -42,7 +49,7 @@
     color: white;
     list-style: none;
     font-size: 1.45rem;
-    padding: 8px 18px;
+    padding: 12px 12px;
     text-decoration: none;
     border-radius: 30px;
 }
@@ -68,12 +75,12 @@
  .header a{
   text-align: right;
   justify-content: right;
-  color: yellow;
+  color: rgb(246, 251, 252);
  }
- .header a: hover{
+ .header a:hover{
   text-align: right;
   justify-content: right;
-  color: red;
+  color: rgb(159, 214, 247);
  } 
 /* Ensure proper sizing */
 * {
